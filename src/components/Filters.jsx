@@ -26,17 +26,17 @@ const Filters = ({ filters, updateFilter }, { currentFilterBy }) => {
           Cost low to high
         </div> 
         <select
-          className="restaurant-option"
+          className="restaurant-option optiobtn"
           onChange={(e) => {
             updateFilter(e.target.value);            
           }}
         >
           <option value="">Ratings</option>
-          <option value="R5" >5 Star</option>
-          <option value="R4" >4 Star</option>
-          <option value="R3" >3 Star</option>
-          <option value="R2" >2 Star</option>
-          <option value="R1" >1 Star</option>
+          <option value="R5" >★★★★★</option>
+          <option value="R4" >★★★★☆</option>
+          <option value="R3" >★★★☆☆</option>
+          <option value="R2" >★★☆☆☆</option>
+          <option value="R1" >★☆☆☆☆</option>
         </select>
           
         <div

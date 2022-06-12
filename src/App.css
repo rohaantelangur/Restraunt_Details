@@ -220,3 +220,7 @@
   overflow: hidden;
   white-space: nowrap;
 }
+.optiobtn{
+  color: gold;
+  background-color: rgb(156, 156, 156);
+}
